@@ -10,31 +10,30 @@
 </head>
 <body>
      <div id="head-container"> <!-- Un conteneur pour pour toute la partie orange -->
-        <div class="logo"><img src="logo.png"></div><!--On va mettre une div pour y insérer le logo qui sera a gauche de la nav-->
-        <nav>
-        <ul id="head-nav"><!--on créé une nav pour le menu du container orange-->
+        <div><img src="logo.png"></div><!--On va mettre une div pour y insérer le logo qui sera a gauche de la nav-->
+        <nav id="nav-barre">
+        <ul><!--on créé une nav pour le menu du container orange-->
             <!--On met les # pour que le lien soit cliquable mais reste sur la page initiale-->
-            <li class="nav_href"><a href="#">Products</a></li> 
-            <li class="nav_href"><a href="#">Templates</a></li>
-            <li class="nav_href"><a href="#">Pricing</a></li>
-            <li class="nav_href"><a href="#">Ressources</a></li>
-            <li class="nav_href"><a href="#">Blog</a></li>
+            <li><a href="#">Products</a></li> 
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Ressources</a></li>
+            <li><a href="#">Blog</a></li>
         </ul> 
-    </nav>
-        <div id="connexion">
-            <button id="trial" type="button">14 DAY FREE TRIAL</button>
-            <button id="login" type="button">LOG IN</button>
-          </div>
-<h1 class="title-container">CONTACT US</h1>
-<P>Our dream team of conversion specialists are looking forward to hearing from you!</P>
+        <form>
+            <button type="button">14 DAY FREE TRIAL</button>
+            <button type="button">LOG IN</button>
+          </form></nav>
+       <div><h1 class="title-container">CONTACT US</h1>
+       <p>Our dream team of conversion specialists are looking forward to hearing from you!</p></div>
     </div><!--fin du head-container-->
     <!----------------------------------------------------------------------->
     <div id="main-container"><!--début du container-->
-<div class="left-content"><!-- une section pour le formulaire-->
 
-    <h2>REACH OUT TO US!</h2>
-    <p>Got a question about Lander? Went to partner with us? Have some suggestions or just want to say "Hi"? Contact us:</p>
-    <form id="form">
+      <div class="left-content"><!-- une section pour le formulaire-->
+      <h2>REACH OUT TO US!</h2>
+       <p>Got a question about Lander? Went to partner with us? Have some suggestions or just want to say "Hi"? Contact us:</p>
+          <form id="form">
         <input type="text" id="fname" class="infos" name="fname" placeholder="First name" />
         <input type="text" id="lname" class="infos" name="lname" placeholder="Last name" />
         <input
@@ -46,24 +45,25 @@
         />
         <input type="text" id="phone" class="infos" name="phone" placeholder="Phone Number" />
         <textarea id="txt" name="txt" class="infos" placeholder="Message"></textarea>
-        <div id="div_btn_submit">
-          <button id="submit_btn" type="submit">SUBMIT</button>
+        <div>
+          <button type="submit">SUBMIT</button>
         </div>
       </form>
       </div>
+
 <div class="right-content"><!-- la section de droite-->
     <h2>LANDER TEAM</h2>
     <p> Not sure where to start? Need help adding that extra mojo to your landing page? Visit our
-        <a href="#" class="social_link" id="help_center">Help Center</a>
+        <a href="#">Help Center</a>
         or get in touch with us:
     </p>
 </div>
+</div><!-- Fin du main-container-->
 
-<!--Création d'un  footer-->
-<footer>
-    <div class="footer-menu">
-        <h4>TimeSheet</h4>
-        <ul class="about-lander">
+<!--Création d'un footer-->
+<footer class="footer-menu">
+    <div id="baba">
+        <ul><h4>TimeSheet</h4>
           <li><a href="#"> Pages</a></li>
           <li><a href="#">Landing Page Templates</a></li>
           <li><a href="#">Online Marketing Resources</a></li>
@@ -72,18 +72,15 @@
           <li><a href="#">Inbound Marketing</a></li>
           <li><a href="#">Marketing Automation</a></li>
         </ul>
-      </div>
-      <div class="footer-menu">
-        <h4>Help</h4>
-        <ul class="help-list">
+      <div>
+        <ul><h4>Help</h4>
             <li><a href="#">Support</a></li>
             <li><a href="#">Help Center</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
       </div>
-      <div class="resources-list">
-        <h4>Resources</h4>
-        <ul class="resources-list">
+      <div>
+        <ul><h4>Resources</h4>
             <li><a href="#">Ebooks</a></li>
             <li><a href="#">Infographics</a></li>
             <li><a href="#">Tools</a></li>
@@ -91,9 +88,8 @@
             <li><a href="#">Podcasts</a></li>
           </ul>
       </div>
-      <div class="landing-list">
-        <h4>Landing Pages</h4>
-        <ul class="landing-list">
+      <div>
+        <ul><h4>Landing Pages</h4>
             <li><a href="#">What is Landing Page</a></li>
             <li><a href="#">PPC Ads</a></li>
             <li><a href="#">SEO Traffic</a></li>
@@ -103,29 +99,25 @@
             <li><a href="#">Target Audience</a></li>
           </ul>
       </div>
-      <div class="commercial-list">
-        <h4>Commercial</h4>
-        <ul class="commercial-list">
+      <div>
+        <ul><h4>Commercial</h4>
             <li><a href="#">Why Lander</a></li>
             <li><a href="#">Pricing</a></li>
+            <h4>Stay Tuned!</h4>
           </ul>
       </div>
-      <div class="footer-menu">
-        <h4>Help</h4>
-        <ul class="help-list">
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Contact Us</a></li>
+      <div>
+        <ul><h4>Try Lander for Free</h4>
+            <li><a href="#">Start a 14 Day Free Trial on</a></li>
+            <li><a href="#">any of our paid plans. No</a></li>
+            <li><a href="#">credit card required.</a></li>
           </ul>
-          <div class="bloc footer-contact">
-            <h3>Stay in touch</h3>
-            <p>55-55-55-55-55</p>
-            <p>supportclient@contact.com</p>
-            <p>21 Dock Street, 45124, NY</p>
+          <div>
+          <button type="button">CREATE YOUR LANDING PAGE</button> 
           </div>
       </div>
+    </div>
+<footer class="footer"><p>&copy; 2021 Lander. All right reserved.<a href="#">Terms of Use and Privacy Policy</a></p></footer>
 </footer>
-<footer class="footer"><p>&copy; 2021 Lander. All right reserved.<a href="#">Terms of Use and Privacy Policy</a> </p></footer>
-</div><!-- Fin du main-container-->
 </body>
 </html>
