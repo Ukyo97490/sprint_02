@@ -1,31 +1,42 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  flex-basis: auto;
 }
-
 #head-container {
   background-color: #f38e58;
-  height: 250px;
+  display: flex;
+  /* height: 250px; */
   /* height: 25%;  un pourcentage est relatif  toujours préciser un max et un min en pixel pour que l'ecran adapte*/
 }
-
-.left-content {
-  float: left;
-  background-color: red;
-  justify-content: flex-start;
-  height: 200px;
+#nav-barre {
+  display: flex;
 }
-.right-content {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  background-color: saddlebrown;
-  height: 200px;
+.title-container {
+  text-align: center;
+}
+#main-container {
+  background-color: floralwhite;
+  display: flex;
+}
+/* .left-content { */
+  /* height: 200px; */
+/* } */
+/* .right-content { */
+  /* height: 200px; */
+/* } */
+.footer-menu {
+  background-color: #404040;
+  position: relative;
+}
+#baba {
+  display: flex;
+  justify-content: space-between;
 }
 .footer {
+  background-color: #333;
   position: relative;
-  height: 200px;
-  background-color: yellow;
+  /* height: 200px; */
 }
 
 /* pour rendre une police responsive on utilise une police en vw= viewport width, et définir une taille min ; si on met la taille en rem la taille sera de xrem*la taille de la police par défaut du body*/
