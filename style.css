@@ -1,8 +1,8 @@
-/* body {
+body {
   margin: 0;
   padding: 0;
   flex-basis: auto;
-} */
+}
 /* header {
   display: inline-block;
   background: url("images/separateur.png") repeat-x bottom;
@@ -48,7 +48,6 @@ margin-top:15px;
 .login{
   /* display: flex; */
   justify-content: space-between;
-
   margin-left: 600px;
   align-items: right;
 }
@@ -115,8 +114,10 @@ h1{
   color: white;
   font-size: 76px;
 }
-
-.title-container,p
+#cool {
+  color: #57b7df;
+}
+.title-container
 {
   text-align: center;
 }
@@ -202,14 +203,12 @@ li {
 .parent {
   font-family: "raleway", sans-serif;
   font-size: 18px;
-
   display: flex;
   flex-direction: row;
 }
 #droite {
   display: flex;
   flex-direction: column;
-  text-align: center;
   width: auto;
   margin-left: 130px;
   margin-right: 30px;
