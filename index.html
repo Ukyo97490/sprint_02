@@ -5,29 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--La balise meta viewport pour le responsive, le content représente la taille de l'écran utilisateur-->
     <!--Initial-scale=1 =>le zoom de base sera 1 (inutile de zoomé sur un portable après modif) -->
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Sprint 02</title>
 </head>
 <body>
-     <div id="head-container"> <!-- Un conteneur pour pour toute la partie orange -->
-        <div><img src="logo.png"></div><!--On va mettre une div pour y insérer le logo qui sera a gauche de la nav-->
-        <nav id="nav-barre">
-        <ul><!--on créé une nav pour le menu du container orange-->
-            <!--On met les # pour que le lien soit cliquable mais reste sur la page initiale-->
-            <li><a href="#">Products</a></li> 
-            <li><a href="#">Templates</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Ressources</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul> 
-        <form>
-            <button type="button">14 DAY FREE TRIAL</button>
-            <button type="button">LOG IN</button>
-          </form></nav>
+  <div class="top">
+  <header>
+    <img src="logo.png" alt="logo" class="logo">
+    <nav>
+    <ul class="nav-area">
+           <li><a href="#">Products</a></li>
+           <li><a href="#">Templates</a></li>
+           <li><a href="#">Pricing</a></li>
+           <li><a href="#">Resources</a></li>
+           <li><a href="#">Blog</a></li>
+           </ul>
+</nav>
+<div class="login">
+<a href="#" class="btn-area">14 DAY FREE TRIAL</a>
+<a href="#" class="btn-area2">LOG IN</a>
+</div></header>
+
        <div><h1 class="title-container">CONTACT US</h1>
        <p>Our dream team of conversion specialists are looking forward to hearing from you!</p></div>
     </div><!--fin du head-container-->
     <!----------------------------------------------------------------------->
+    </div>
     <div id="main-container"><!--début du container-->
 
       <div class="left-content"><!-- une section pour le formulaire-->
@@ -62,7 +66,7 @@
 
 <!--Création d'un footer-->
 <footer class="footer-menu">
-    <div id="baba">
+    <div id="popak">
         <ul><h4>TimeSheet</h4>
           <li><a href="#"> Pages</a></li>
           <li><a href="#">Landing Page Templates</a></li>
@@ -103,8 +107,13 @@
         <ul><h4>Commercial</h4>
             <li><a href="#">Why Lander</a></li>
             <li><a href="#">Pricing</a></li>
-            <h4>Stay Tuned!</h4>
-          </ul>
+          <h4>Stay Tuned!</h4>
+		  <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+		  </ul> 
+		  
       </div>
       <div>
         <ul><h4>Try Lander for Free</h4>
