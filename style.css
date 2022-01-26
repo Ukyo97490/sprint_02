@@ -58,7 +58,7 @@ margin-top:15px;
   font-size:16px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 12px 30px;
   border-radius: 5px;
   background: #032030;
 }
@@ -69,7 +69,7 @@ margin-top:15px;
   font-size:16px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 12px 30px;
   border-radius: 5px;
   background: #57b7df;
 }
@@ -113,6 +113,7 @@ margin-top:15px;
 .title-container,
 h1{
   color: white;
+  font-size: 76px;
 }
 
 .title-container,p
@@ -121,15 +122,14 @@ h1{
 }
 #main-container {
   background-color: rgb(255, 255, 255);
+  height:730px ;
   display: flex;
-
   flex-wrap: wrap;
 }
-/* .left-content {
+.left-content {
   display: flex;
   justify-content: flex-start;
-  height: 200px;
-} */
+}
 /* .right-content {
   display: flex;
   justify-content: flex-end;
@@ -142,8 +142,11 @@ h1{
 }
 #popak {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-around;
   flex-wrap: wrap;
+  /* padding: 20px; */
+  /* margin:10px; */
+  
 }
 .footer {
   width: 100%;
@@ -173,4 +176,24 @@ li {
 .fa-instagram,
 .fa-linkedin-in {
   color: #e9a166;
+}
+
+.btn3{ 
+  cursor: pointer;
+  color: #fff;
+ border-style: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #032030;
+}
+
+.btn3:hover{
+  cursor: pointer;
+  color: #fff;
+  border-style: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #57b7df;
 }
