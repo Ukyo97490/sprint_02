@@ -10,7 +10,7 @@ body {
   font-weight: normal;
   margin-top: 0px;
 } */
-header{
+header {
   background-color: #f38e58;
   display: inline-flex;
   justify-content: space-around;
@@ -18,43 +18,42 @@ header{
   /* padding: 5px; */
 }
 
-.logo{
+.logo {
   margin-left: 50px;
-  cursor:pointer;
+  cursor: pointer;
 }
-.nav-area
-{
-list-style: none;
-padding:10px;
-margin-top:15px;
+.nav-area {
+  list-style: none;
+  padding: 10px;
+  margin-top: 15px;
 }
-.nav-area li{
-  display:inline-block;
+.nav-area li {
+  display: inline-block;
   padding: 0 15px;
   text-transform: uppercase;
 }
-.nav-area li a{
-  transition: .3s;
-  color:#fff;
+.nav-area li a {
+  transition: 0.3s;
+  color: #fff;
 }
 
 .nav-area li a:hover {
-  color:#57b7df;
+  color: #57b7df;
 }
-.top{
+.top {
   background-color: #f38e58;
-  height:350px ;
+  height: 350px;
 }
-.login{
+.login {
   /* display: flex; */
   justify-content: space-between;
   margin-left: 600px;
   align-items: right;
 }
-.btn-area{ 
+.btn-area {
   cursor: pointer;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 12px 30px;
@@ -62,31 +61,31 @@ margin-top:15px;
   background: #032030;
 }
 
-.btn-area:hover{
+.btn-area:hover {
   cursor: pointer;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 12px 30px;
   border-radius: 5px;
   background: #57b7df;
 }
-.btn-area2{ 
+.btn-area2 {
   cursor: pointer;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 10px 30px;
   border-radius: 5px;
   /* background: #d22938; */
-  border-style:solid;
+  border-style: solid;
 }
-.btn-area2:hover{
+.btn-area2:hover {
   cursor: pointer;
   color: #57b7df;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 10px 30px;
@@ -110,15 +109,14 @@ margin-top:15px;
   text-align: center;
 }
 .title-container,
-h1{
+h1 {
   color: white;
   font-size: 76px;
 }
-#cool {
+.cool {
   color: #57b7df;
 }
-.title-container
-{
+.title-container {
   text-align: center;
 }
 #main-container {
@@ -147,7 +145,6 @@ h1{
   /* flex-wrap: wrap; */
   /* padding: 20px; */
   /* margin:10px; */
-  
 }
 .footer {
   width: 100%;
@@ -179,17 +176,17 @@ li {
   color: #e9a166;
 }
 
-.btn3{ 
+.btn3 {
   cursor: pointer;
   color: #fff;
- border-style: none;
+  border-style: none;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 5px;
   background: #032030;
 }
 
-.btn3:hover{
+.btn3:hover {
   cursor: pointer;
   color: #fff;
   border-style: none;
@@ -199,7 +196,7 @@ li {
   background: #57b7df;
 }
 
-/**Stéphane **/
+/** **/
 .parent {
   font-family: "raleway", sans-serif;
   font-size: 18px;
