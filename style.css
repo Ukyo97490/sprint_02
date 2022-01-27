@@ -3,27 +3,19 @@ body {
   padding: 0;
   flex-basis: auto;
 }
-/* header {
-  display: inline-block;
-  background: url("images/separateur.png") repeat-x bottom;
-  font-family: "Arial", serif;
-  font-weight: normal;
-  margin-top: 0px;
-} */
 header {
   background-color: #f38e58;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   /* padding: 5px; */
 }
-
 .logo {
   margin-left: 50px;
   cursor: pointer;
 }
 .nav-area {
-  list-style: none;
   padding: 10px;
   margin-top: 15px;
 }
@@ -36,19 +28,8 @@ header {
   transition: 0.3s;
   color: #fff;
 }
-
 .nav-area li a:hover {
   color: #57b7df;
-}
-.top {
-  background-color: #f38e58;
-  height: 350px;
-}
-.login {
-  /* display: flex; */
-  justify-content: space-between;
-  margin-left: 600px;
-  align-items: right;
 }
 .btn-area {
   cursor: pointer;
@@ -59,8 +40,8 @@ header {
   padding: 12px 30px;
   border-radius: 5px;
   background: #032030;
+  margin-right: 10px;
 }
-
 .btn-area:hover {
   cursor: pointer;
   color: #fff;
@@ -92,18 +73,6 @@ header {
   border-radius: 5px;
   background: #ffffff;
 }
-#head-container {
-  background-color: #f38e58;
-  display: flex;
-  justify-content: space-between;
-  /* height: 250px; */
-  /* height: 25%;  un pourcentage est relatif  toujours préciser un max et un min en pixel pour que l'ecran adapte*/
-}
-#nav-barre {
-  display: inline-block;
-  /* justify-content: space-between; */
-}
-
 .title-container {
   background-color: #f38e58;
   text-align: center;
@@ -113,27 +82,17 @@ h1 {
   color: white;
   font-size: 76px;
 }
-.cool {
-  color: #57b7df;
-}
 .title-container {
   text-align: center;
 }
 #main-container {
   background-color: rgb(255, 255, 255);
-  /* height:730px ; */
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
-/* .left-content {
-  display: flex;
-  justify-content: flex-start;
-} */
-/* .right-content {
-  display: flex;
-  justify-content: flex-end;
-  height: 200px;
-} */
+.cool {
+  color: #57b7df;
+}
 .footer-menu {
   width: 100%;
   background-color: #404040;
@@ -175,7 +134,10 @@ li {
 .fa-linkedin-in {
   color: #e9a166;
 }
-
+.articles {
+  height: 70px;
+  width: 70px;
+}
 .btn3 {
   cursor: pointer;
   color: #fff;
