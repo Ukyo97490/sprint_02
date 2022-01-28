@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
 }
-/* On charge une police */
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* On charge les polices */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Montserrat:wght@500&family=Raleway:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 /* Pour ne pas pas se perdre et faire plaisir a mon maniaque de binôme on va ranger le CSS */
 
 header {
-  padding:20px;
+  padding: 20px;
   background-color: #f38e58;
   height: 400px;
   text-align: center;
@@ -23,9 +24,10 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
-.nav-area{
+.nav-area {
   list-style: none;
   margin-left: -220px;
   font-weight: bold;
@@ -40,7 +42,7 @@ nav {
 
 .nav-area li a {
   margin-top: 35px;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
   font-size: 17px;
   text-decoration: none;
   justify-content: space-between;
@@ -55,57 +57,62 @@ nav {
   font-size: 17px;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
 .login {
-
- padding-top: 30px;
+  padding-top: 30px;
   width: 500px;
   height: auto;
 }
 
-.btn-area{ 
+.btn-area {
   cursor: pointer;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 12px 30px;
   border-radius: 5px;
   background: #032030;
 }
-.btn-area:hover{
+.btn-area:hover {
   background: #57b7df;
 }
 
-.btn-area2{ 
+.btn-area2 {
   cursor: pointer;
   color: #fff;
-  font-size:16px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 10px 30px;
   border-radius: 5px;
-  border-style:solid;
+  border-style: solid;
 }
 
-.btn-area2:hover{
+.btn-area2:hover {
   color: #57b7df;
   background: #ffffff;
 }
 
-h1{
+h1 {
   color: white;
   font-size: 70px;
 }
 
 section {
-  width: 520px;
-  margin-left: 100px;
+  margin-left: 58px;
+  width: 600px;
+  /* margin-left: 100px;*/
   margin-top: 70px;
 }
 
-h2{
-  color:#57b7df;
+h2 {
+  color: #57b7df;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -124,7 +131,7 @@ input {
 input::placeholder {
   padding-left: 10px;
   color: #bebebe;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 textarea {
@@ -140,7 +147,7 @@ textarea {
 textarea::placeholder {
   padding-left: 10px;
   color: #bebebe;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 #btn3 {
@@ -160,26 +167,33 @@ textarea::placeholder {
 }
 
 article {
-  width: 600px;
+  /* margin-top: 70px; */
+  width: 450px;
   margin-left: 800px;
-  margin-top: -660px;
+  margin-top: -620px;
 }
 article a {
-  color:#f38e58;
+  color: #f38e58;
   text-decoration: none;
 }
 article a:hover {
-  color:#57b7df;
+  color: #57b7df;
   text-decoration: none;
 }
 h3 {
-  margin-top: 40px;
+  margin-top: 45px;
   /* font-family: "Montserrat", sans-serif; */
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.popak{
-  display: flex; 
+.popak {
+  display: flex;
+  margin-top: 30px;
+}
+
+.reseaux {
+  margin-right: 30px;
 }
 
 #prefooter {
@@ -187,27 +201,28 @@ h3 {
   width: 100%;
   height: 300px;
   margin-top: 300px;
-  
 }
 
 #lapin {
   display: flex;
-  
+
   justify-content: space-around;
   list-style: none;
   text-decoration: none;
 }
-h4{
+h4 {
   margin-top: 40px;
   font-size: 15px;
   color: #ffffff;
 }
 /* On enlève les puces des listes et les déco souligner sous les liens */
-#lapin, li, a {
+#lapin,
+li,
+a {
   list-style: none;
-text-decoration: none;
-color: #aeaeae;
-margin-top: 3px;
+  text-decoration: none;
+  color: #aeaeae;
+  margin-top: 3px;
 }
 
 .fa-twitter,
@@ -217,8 +232,7 @@ margin-top: 3px;
   color: #e9a166;
 }
 
-
-.btn3{
+.btn3 {
   margin-top: 20px;
   width: 230px;
   height: 65px;
@@ -236,13 +250,17 @@ margin-top: 3px;
   border: 2px double white;
 }
 
-footer{
+footer {
   color: white;
-  position:relative;
+  position: relative;
   background-color: #333333;
-  height:30px;
-text-decoration: none;
+  height: 30px;
+  text-decoration: none;
 }
-footer a{
-  color:#e9a166
+footer a {
+  color: #e9a166;
+}
+footer p {
+  margin-left: 60px;
+  padding-top: 5px;
 }
