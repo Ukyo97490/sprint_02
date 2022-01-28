@@ -14,12 +14,12 @@ header {
   height: 400px;
   text-align: center;
 }
-/* .logo {
-  height: 250px;
-  width: 250px;
-  margin-top: 95px;
+.logo {
+  /* height: 250px;
+  width: 250px; */
+  margin-top: 10px;
   margin-left: 20px;
-} */
+}
 
 nav {
   display: flex;
@@ -60,6 +60,7 @@ nav {
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .login {
   padding-top: 30px;
@@ -214,6 +215,8 @@ h4 {
   margin-top: 40px;
   font-size: 15px;
   color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 2px;
 }
 /* On enlève les puces des listes et les déco souligner sous les liens */
 #lapin,
@@ -224,12 +227,24 @@ a {
   color: #aeaeae;
   margin-top: 3px;
 }
+li,
+a:hover {
+  color: #57b7df;
+}
 
 .fa-twitter,
 .fa-facebook-f,
 .fa-instagram,
 .fa-linkedin-in {
   color: #e9a166;
+  padding: 4px;
+}
+
+.fa-twitter:hover,
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-linkedin-in:hover {
+  color: #57b7df;
 }
 
 .btn3 {
